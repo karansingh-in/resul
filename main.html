@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET (UG) - 2025 Score Card</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #4a4a4a;
+            flex-wrap: wrap;
+        }
+        .header img {
+            height: 50px;
+            margin: 5px;
+        }
+        .header .title {
+            font-size: 24px;
+            font-weight: bold;
+            flex-grow: 1;
+            text-align: center;
+        }
+        .header .logo-right {
+            display: flex;
+            align-items: center;
+        }
+        .login-box {
+            margin-top: 20px;
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .login-box label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 16px;
+            text-align: left;
+        }
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #333;
+            color: #fff;
+            box-sizing: border-box;
+        }
+        .captcha {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+        .captcha label {
+            flex-grow: 1;
+            text-align: left;
+        }
+        .captcha input[type="text"] {
+            width: 60%;
+            padding: 8px;
+            margin-right: 10px;
+        }
+        .captcha img {
+            width: 35%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+        .login-box button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        .login-box button:hover {
+            background-color: #218838;
+        }
+        .forgot-password {
+            color: #1e90ff;
+            text-decoration: underline;
+            margin-top: 10px;
+            display: inline-block;
+            cursor: pointer;
+            text-align: right;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #aaa;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header .title {
+                margin: 10px 0;
+            }
+            .captcha {
+                flex-direction: column;
+                text-align: left;
+            }
+            .captcha input[type="text"] {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .captcha img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Emblem_of_India.svg/1200px-Emblem_of_India.svg.png" alt="India Emblem">
+                <span>Department of Higher Education<br>Ministry of Education<br>Government of India</span>
+            </div>
+            <div class="title">National Eligibility Cum Entrance Test (UG) - 2025<br>Score Card</div>
+            <div class="logo-right">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Ashoka_Chakra.svg/1200px-Ashoka_Chakra.svg.png" alt="NTA Logo">
+                <span>rाष्ट्रीय परीक्षा एजेंसी<br>National Testing Agency</span>
+            </div>
+        </div>
+        <div class="login-box">
+            <h2>View Result</h2>
+            <label for="app-number">Application Number :</label>
+            <input type="text" id="app-number" name="app-number">
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password">
+            <div class="captcha">
+                <label for="captcha">Enter CAPTCHA (case sensitive) :</label>
+                <input type="text" id="captcha" name="captcha">
+                <img src="https://via.placeholder.com/100x40?text=R29ED0" alt="CAPTCHA">
+            </div>
+            <button>LOGIN</button>
+            <div class="forgot-password">Forgot Password ?</div>
+        </div>
+        <div class="footer">
+            This site is designed and hosted by NIC PEP Division. The contents are provided by NTA. For any further information, please contact NTA.
+        </div>
+    </div>
+</body>
+</html>
