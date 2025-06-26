@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>NEET (UG) - 2025 Score Card</title>
     <style>
         body {
@@ -110,11 +111,17 @@
             text-align: right;
         }
         .footer {
-            margin-top: 20px;
-            font-size: 12px;
-            color: #aaa;
-            text-align: center;
+             background-color: #003366; /* Dark blue background */
+    color: white; /* White text color */
+    padding: 15px; /* Padding for spacing */
+    text-align: center; /* Center text */
+    font-size: 14px; /* Font size */
         }
+
+        .footer-content {
+    max-width: 1200px; /* Maximum width for the footer */
+    margin: 0 auto; /* Center the footer content */
+}
         @media (max-width: 600px) {
             .header {
                 flex-direction: column;
@@ -123,6 +130,9 @@
             .header .title {
                 margin: 10px 0;
             }
+            .footer {
+        font-size: 12px; /* Smaller font size on small screens */
+    }
             .captcha {
                 flex-direction: column;
                 text-align: left;
@@ -164,9 +174,14 @@
             <button>LOGIN</button>
             <div class="forgot-password">Forgot Password ?</div>
         </div>
-        <div class="footer">
+        <!-- <div class="footer">
             This site is designed and hosted by NIC PEP Division. The contents are provided by NTA. For any further information, please contact NTA.
+        </div> -->
+         <footer class="footer">
+        <div class="footer-content">
+            <p>This site is designed and hosted by MIE JEP Division. The contents are provided by ITM. For any further information, please contact ITM.</p>
         </div>
+    </footer>
     </div>
 </body>
 </html>
